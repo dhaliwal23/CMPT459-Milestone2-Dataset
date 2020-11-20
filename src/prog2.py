@@ -64,7 +64,7 @@ print("deceased cases accuracy %:",round((t['deceased'][0]/de)*100,2))
 print("hospitalized cases accuracy %:",round((t['hospitalized'][1]/hp)*100,2))
 print("nonhospitalized cases accuracy %:",round((t['nonhospitalized'][2]/nhp)*100,2))
 print("recovered cases accuracy %:",round((t['recovered'][3]/rec)*100,2))
-
+print("r2 score:",r2_score(target_train,val))
 
 print("Testing Data results on Naive Bayes Classifier")
 print("Accuracy %:",lmodel.score(data_test,target_test)*100)
@@ -79,7 +79,7 @@ print("deceased cases accuracy %:",(t1['deceased'][0]/de)*100)
 print("hospitaized cases accuracy %:",(t1['hospitalized'][1]/hp)*100)
 print("nonhospitalized cases accuracy %:",(t1['nonhospitalized'][2]/nhp)*100)
 print("recovered cases accuracy %:",(t1['recovered'][3]/rec)*100)
-
+print("r2 score:",r2_score(target_test,val2))
 
 
 

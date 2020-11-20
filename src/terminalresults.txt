@@ -11,6 +11,7 @@ deceased cases accuracy %: 1.27
 hospitalized cases accuracy %: 95.06
 nonhospitalized cases accuracy %: 98.82
 recovered cases accuracy %: 0.63
+r2 score: -0.3740965172850981
 
 
 Testing Data results on Naive Bayes Classifier
@@ -26,6 +27,7 @@ deceased cases accuracy %: 1.4937759336099585
 hospitaized cases accuracy %: 95.09976017998862
 nonhospitalized cases accuracy %: 98.85683718350042
 recovered cases accuracy %: 0.5944074016643407
+r2 score: -0.36528518082990913
 
 
 Training Data results on K neighbors Classifier
