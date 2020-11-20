@@ -1,0 +1,92 @@
+Training Data results on Naive Bayes Classifier
+Accuracy %: 79.0456817728179
+Predicted        deceased  hospitalized  nonhospitalized  recovered     All
+True                                                                       
+deceased               61          3914              817          2    4794
+hospitalized          938        154733             5922       1188  162781
+nonhospitalized      2286             4           197166         68  199524
+recovered             119         74677             3498        496   78790
+All                  3404        233328           207403       1754  445889
+deceased cases accuracy %: 1.27
+hospitalized cases accuracy %: 95.06
+nonhospitalized cases accuracy %: 98.82
+recovered cases accuracy %: 0.63
+
+
+Testing Data results on Naive Bayes Classifier
+Accuracy %: 79.38693674701497
+Predicted        deceased  hospitalized  nonhospitalized  recovered     All
+True                                                                       
+deceased               18           985              202          0    1205
+hospitalized          256         38465             1411        315   40447
+nonhospitalized       547             1            49897         29   50474
+recovered              37         18327              868        115   19347
+All                   858         57778            52378        459  111473
+deceased cases accuracy %: 1.4937759336099585
+hospitaized cases accuracy %: 95.09976017998862
+nonhospitalized cases accuracy %: 98.85683718350042
+recovered cases accuracy %: 0.5944074016643407
+
+
+Training Data results on K neighbors Classifier
+Accuracy %: 81.88652332755461
+Predicted        deceased  hospitalized  nonhospitalized  recovered     All
+True                                                                       
+deceased              573          3307              300        614    4794
+hospitalized          409        140859               60      21453  162781
+nonhospitalized       338            67           198324        795  199524
+recovered             467         51456             1500      25367   78790
+All                  1787        195689           200184      48229  445889
+deceased cases accuracy %: 11.95
+hospitalized cases accuracy %: 86.53
+nonhospitalized cases accuracy %: 99.4
+recovered cases accuracy %: 32.2
+r2 score: -0.2859615631120298
+
+
+Testing Data results on K neighbors Classifier
+Accuracy %: 81.55517479569043
+Predicted        deceased  hospitalized  nonhospitalized  recovered     All
+True                                                                       
+deceased               58           851              115        181    1205
+hospitalized          119         34914               20       5394   40447
+nonhospitalized       128            19            49985        342   50474
+recovered             113         12749              530       5955   19347
+All                   418         48533            50650      11872  111473
+deceased cases accuracy %: 4.813278008298756
+hospitaized cases accuracy %: 86.32036986673918
+nonhospitalized cases accuracy %: 99.031184372152
+recovered cases accuracy %: 30.779965886183902
+r2 score: -0.3086937438158781
+
+
+Training Data results on AdaBoost
+Accuracy %: 75.11914400220682
+Predicted        deceased  hospitalized  nonhospitalized  recovered     All
+True                                                                       
+deceased                0          3928              108        758    4794
+hospitalized            0        160281              276       2224  162781
+nonhospitalized      3549            80           169996      25899  199524
+recovered               0         73592              527       4671   78790
+All                  3549        237881           170907      33552  445889
+deceased cases accuracy %: 0.0
+hospitalized cases accuracy %: 98.46
+nonhospitalized cases accuracy %: 85.2
+recovered cases accuracy %: 5.93
+r2 score: -0.47413072715334414
+
+
+Testing Data results on AdaBoost
+Accuracy %: 75.43530720443515
+Predicted        deceased  hospitalized  nonhospitalized  recovered     All
+True                                                                       
+deceased                0           979               17        209    1205
+hospitalized            0         39818               83        546   40447
+nonhospitalized       885            24            43073       6492   50474
+recovered               0         18041              107       1199   19347
+All                   885         58862            43280       8446  111473
+deceased cases accuracy %: 0.0
+hospitaized cases accuracy %: 98.444878482953
+nonhospitalized cases accuracy %: 85.33700519079129
+recovered cases accuracy %: 6.197343257352561
+r2 score: -0.4671195942956192
